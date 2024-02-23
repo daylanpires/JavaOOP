@@ -11,16 +11,16 @@ public class conditionalStructureC {
 		Scanner sc = new Scanner(System.in);
 		int time;
 		
-		System.out.println("What time is it?");
+		System.out.println("Write a number:");
 		time = sc.nextInt();
 		
 		if (time < 12) {
-			System.out.println("Good morning");
+			System.out.println("Your number is smaller than 12");
 		}
+		
 		else {
-			System.out.println("Good afternoon");
+			System.out.println("Your number is bigger than 12");
 		}
 		sc.close();
 	}
-
 }
